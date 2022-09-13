@@ -1,10 +1,10 @@
 function logic(){
 
-var random1 = Math.floor(Math.random()*6)+1;
-var random2 = Math.floor(Math.random()*6)+1;
+var random1 = Math.floor(Math.random()*6)+1;   //generating random numbers from 1 to 6
+var random2 = Math.floor(Math.random()*6)+1;   //generating random numbers from 1 to 6
 
-var randomdiceimage1= "images/dice"+random1+".png"
-var randomdiceimage2= "images/dice"+random2+".png"
+var randomdiceimage1= "images/dice"+random1+".png"    //storing images from dice1-dice6.png
+var randomdiceimage2= "images/dice"+random2+".png"    //storing images from dice1-dice6.png
 
 document.querySelector(".img1").setAttribute("src",randomdiceimage1)
 
