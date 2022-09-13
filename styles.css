@@ -57,15 +57,3 @@ button:hover{
   background-color: rgba(255, 255, 0, 0.572);
   box-shadow:5px 5px yellow;
 }
-
-@media (max-width:400) {
-  body{
-    height:883px;
-  }
-  img{
-    width:100px;
-  }
-  .container{
-    width: 100%;
-  }
-}
